@@ -193,7 +193,7 @@ class TurnstileAPIServer:
 
         try:
             if self.debug:
-                logger.debug(f"Browser {index}: Starting Turnstile solve for URL: {url} with Sitekey: {sitekey} | Proxy: {proxy}")
+                logger.debug(f"Browserr {index}: Starting Turnstile solve for URL: {url} with Sitekey: {sitekey} | Proxy: {proxy}")
                 logger.debug(f"Browser {index}: Setting up page data and route")
 
             url_with_slash = url + "/" if not url.endswith("/") else url

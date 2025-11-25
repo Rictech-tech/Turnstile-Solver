@@ -103,6 +103,8 @@ A Python-based Turnstile solver using the patchright library, featuring multi-th
      python api_solver.py
      ```
      
+
+     xvfb-run -a python3 api_solver.py --browser_type chrome --host 0.0.0.0
 ---
 
 ### 🔧 Command line arguments
